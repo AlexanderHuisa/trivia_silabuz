@@ -126,10 +126,10 @@ while opcionMenu == True:
             print(BLUE,
                   "\n1) ¿En qué año se envió el primer mensaje de texto SMS?",
                   RESET)
-            print('\n a) En 1985.')
+            print(CYAN,'\n a) En 1985.')
             print(' b) En 1992.')
             print(' c) En 1997.')
-            print(' d) En 1999.\n')
+            print(' d) En 1999.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
                 print(
@@ -151,10 +151,10 @@ while opcionMenu == True:
                 BLUE,
                 '\n2) ¿Qué tecnología se utiliza para hacer posibles las llamadas telefónicas a través de Internet?',
                 RESET)
-            print('\n a) Ethernet.')
+            print(CYAN,'\n a) Ethernet.')
             print(' b) Bluetooth.')
             print(' c) POP.')
-            print(' d) VoIP.\n')
+            print(' d) VoIP.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
                 print(
@@ -173,10 +173,10 @@ while opcionMenu == True:
             time.sleep(2)
 
             print(BLUE, '\n3) ¿Qué es el spam?', RESET)
-            print('\n a) Un virus informático.')
+            print(CYAN,'\n a) Un virus informático.')
             print(' b) Correos no solicitados.')
             print(' c) Un lenguaje de programación.')
-            print(' d) Una marca de ordenadores.\n')
+            print(' d) Una marca de ordenadores.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
                 print(
@@ -198,10 +198,10 @@ while opcionMenu == True:
                 BLUE,
                 '\n4) Samsung es una empresa de tecnología proveniente de Asia ¿de qué país es?',
                 RESET)
-            print('\n a) Taiwan.')
+            print(CYAN,'\n a) Taiwan.')
             print(' b) Japon.')
             print(' c) Corea del sur.')
-            print(' d) China.\n')
+            print(' d) China.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "c":
                 print(
@@ -220,14 +220,11 @@ while opcionMenu == True:
             time.sleep(2)
 
             print(BLUE, '\n5) ¿Qué son los Digital Twins?', RESET)
-            print(
-                '\n a) Son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales.'
+            print(CYAN,'\n a) Son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales.'
             )
             print(' b) Son los Perfiles de los usuarios en la redes sociales.')
             print(' c) Son la  reproducción digital de los objetos reales.')
-            print(
-                ' d) Son programas informaticos con los que son posible mantener una conversación fluidamente.\n'
-            )
+            print(' d) Son programas informaticos con los que son posible mantener una conversación fluidamente.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "a":
                 print(
@@ -262,10 +259,10 @@ while opcionMenu == True:
                 BLUE,
                 "\n1) ¿Qué hito informático de 1969 cambiaría radicalmente el curso de la historia de la humanidad?",
                 RESET)
-            print('\n a) El primer ordenador personal.')
+            print(CYAN,'\n a) El primer ordenador personal.')
             print(' b) El internet.')
             print(' c) El primer router wi-fi.')
-            print(' d) El primer iPod.\n')
+            print(' d) El primer iPod.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
                 print(
@@ -286,10 +283,10 @@ while opcionMenu == True:
             print(BLUE,
                   '\n2) ¿Quién fue el primer Presidente de Estados Unidos?',
                   RESET)
-            print('\n a) Abraham Lincoln.')
+            print(CYAN,'\n a) Abraham Lincoln.')
             print(' b) Thomas Jefferson.')
             print(' c) Andrew Jackson.')
-            print(' d) George Washington.\n')
+            print(' d) George Washington.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
                 print(
@@ -309,10 +306,10 @@ while opcionMenu == True:
 
             print(BLUE, '\n3) ¿Qué año inicio la primera gerra mundial?',
                   RESET)
-            print('\n a) En 1912.')
+            print(CYAN,'\n a) En 1912.')
             print(' b) En 1914.')
             print(' c) En 1916.')
-            print(' d) En 1918.\n')
+            print(' d) En 1918.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
                 print(
@@ -331,10 +328,10 @@ while opcionMenu == True:
             time.sleep(2)
 
             print(BLUE, '\n4) ¿Qué año el hombre llegó a la luna?', RESET)
-            print('\n a) En 1961.')
+            print(CYAN,'\n a) En 1961.')
             print(' b) En 1964.')
             print(' c) En 1966.')
-            print(' d) En 1969.\n')
+            print(' d) En 1969.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
                 print(
@@ -354,10 +351,10 @@ while opcionMenu == True:
 
             print(BLUE, '\n5) ¿En qué año fue inaugurado el canal de Panamá?',
                   RESET)
-            print('\n a) En 1912.')
+            print(CYAN,'\n a) En 1912.')
             print(' b) En 1914.')
             print(' c) En 1916.')
-            print(' d) En 1918.\n')
+            print(' d) En 1918.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
                 print(
