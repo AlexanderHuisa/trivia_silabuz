@@ -132,17 +132,13 @@ while opcionMenu == True:
             print(' d) En 1999.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'Según NPR, un ingeniro envió el mensaje que decía "feliz navidad" al teléfono mòvil del director de Vodafone, Richard Jarvis, el 3 de diciembre de 1992'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET,)
+                print(GREEN, 'Según NPR, un ingeniro envió el mensaje que decía "feliz navidad" al teléfono mòvil del director de Vodafone, Richard Jarvis, el 3 de diciembre de 1992',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'Según NPR, un ingeniro envió el mensaje que decía "feliz navidad" al teléfono mòvil del director de Vodafone Richard Jarvis, el 3 de diciembre de 1992.'
-                )
+                print(RED,'¡Respuesta Incorrecta\n', RESET,)
+                print(GREEN, 'Según NPR, un ingeniro envió el mensaje que decía "feliz navidad" al teléfono mòvil del director de Vodafone, Richard Jarvis, el 3 de diciembre de 1992',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -157,17 +153,13 @@ while opcionMenu == True:
             print(' d) VoIP.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'Voz sobre protocolo de Internet, también llamada VoIP (Voice over IP), es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN, 'Voz sobre protocolo de Internet, también llamada VoIP (Voice over IP), es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'Voz sobre protocolo de Internet, también llamada VoIP (Voice over IP), es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN, 'Voz sobre protocolo de Internet, también llamada VoIP (Voice over IP), es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -179,17 +171,13 @@ while opcionMenu == True:
             print(' d) Una marca de ordenadores.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'El spam engloba esos correos que normalmente no hemos solicitado, son correos publicitarios y que se envían de forma masiva a cientos de cuentas de correo.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n',RESET)
+                print(GREEN, 'El spam engloba esos correos que normalmente no hemos solicitado, son correos publicitarios y que se envían de forma masiva a cientos de cuentas de correo.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'El spam engloba esos correos que normalmente no hemos solicitado, son correos publicitarios y que se envían de forma masiva a cientos de cuentas de correo.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN, 'El spam engloba esos correos que normalmente no hemos solicitado, son correos publicitarios y que se envían de forma masiva a cientos de cuentas de correo.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -204,17 +192,13 @@ while opcionMenu == True:
             print(' d) China.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "c":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'La sede de la empresa, Samsung Town se encuentra en la ciudad de Seúl, capital de Corea del Sur.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'La sede de la empresa, Samsung Town se encuentra en la ciudad de Seúl, capital de Corea del Sur.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'La sede de la empresa, Samsung Town se encuentra en la ciudad de Seúl, capital de Corea del Sur.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'La sede de la empresa, Samsung Town se encuentra en la ciudad de Seúl, capital de Corea del Sur.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -227,17 +211,13 @@ while opcionMenu == True:
             print(' d) Son programas informaticos con los que son posible mantener una conversación fluidamente.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "a":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'Los Digital Twins, son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales. respuesta correcta.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'Los Digital Twins, son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales. respuesta correcta.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'Los Digital Twins, son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales. respuesta correcta.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'Los Digital Twins, son réplicas Virtuales de objetos o procesos que simulan el comportamiento de sus homologos reales. respuesta correcta.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -265,17 +245,13 @@ while opcionMenu == True:
             print(' d) El primer iPod.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'Bautizada originalmente como ARPANET, la red Internet cambiaría radicalmente el flujo de información y comercio a todos los niveles y en todas partes del mundo.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN, 'Bautizada originalmente como ARPANET, la red Internet cambiaría radicalmente el flujo de información y comercio a todos los niveles y en todas partes del mundo.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'Bautizada originalmente como ARPANET, la red Internet cambiaría radicalmente el flujo de información y comercio a todos los niveles y en todas partes del mundo.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN, 'Bautizada originalmente como ARPANET, la red Internet cambiaría radicalmente el flujo de información y comercio a todos los niveles y en todas partes del mundo.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -289,17 +265,13 @@ while opcionMenu == True:
             print(' d) George Washington.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'El primer presidente de los Estados Unidos de América fue George Washington, quien comenzó su mandato el 30 de abril de 1789 y terminó el 4 de marzo de 1797. Es considerado uno de los Padres Fundadores. Murió de complicaciones por el tratamiento que recibía para su neumonía.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'El primer presidente de los Estados Unidos de América fue George Washington, quien comenzó su mandato el 30 de abril de 1789 y terminó el 4 de marzo de 1797. Es considerado uno de los Padres Fundadores. Murió de complicaciones por el tratamiento que recibía para su neumonía.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'El primer presidente de los Estados Unidos de América fue George Washington, quien comenzó su mandato el 30 de abril de 1789 y terminó el 4 de marzo de 1797. Es considerado uno de los Padres Fundadores. Murió de complicaciones por el tratamiento que recibía para su neumonía.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'El primer presidente de los Estados Unidos de América fue George Washington, quien comenzó su mandato el 30 de abril de 1789 y terminó el 4 de marzo de 1797. Es considerado uno de los Padres Fundadores. Murió de complicaciones por el tratamiento que recibía para su neumonía.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -312,17 +284,13 @@ while opcionMenu == True:
             print(' d) En 1918.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'La Primera Guerra Mundial, anteriormente llamada la Gran Guerra, fue una confrontación bélica centrada en Europa que empezó el 28 de julio de 1914 y finalizó el 11 de noviembre de 1918.'
-                )
+                print(RED, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'La Primera Guerra Mundial, anteriormente llamada la Gran Guerra, fue una confrontación bélica centrada en Europa que empezó el 28 de julio de 1914 y finalizó el 11 de noviembre de 1918.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'La Primera Guerra Mundial, anteriormente llamada la Gran Guerra, fue una confrontación bélica centrada en Europa que empezó el 28 de julio de 1914 y finalizó el 11 de noviembre de 1918.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'La Primera Guerra Mundial, anteriormente llamada la Gran Guerra, fue una confrontación bélica centrada en Europa que empezó el 28 de julio de 1914 y finalizó el 11 de noviembre de 1918.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -334,17 +302,13 @@ while opcionMenu == True:
             print(' d) En 1969.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "d":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'El 20 de julio de 1969 la misión estadounidense Apolo 11, colocó a los primeros hombres en la Luna: el comandante Neil Armstrong y el piloto Edwin F. Aldrin.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'El 20 de julio de 1969 la misión estadounidense Apolo 11, colocó a los primeros hombres en la Luna: el comandante Neil Armstrong y el piloto Edwin F. Aldrin.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'El 20 de julio de 1969 la misión estadounidense Apolo 11, colocó a los primeros hombres en la Luna: el comandante Neil Armstrong y el piloto Edwin F. Aldrin.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'El 20 de julio de 1969 la misión estadounidense Apolo 11, colocó a los primeros hombres en la Luna: el comandante Neil Armstrong y el piloto Edwin F. Aldrin.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
@@ -357,23 +321,18 @@ while opcionMenu == True:
             print(' d) En 1918.\n',RESET)
             respuesta = pedirRespuesta()
             if respuesta == "b":
-                print(
-                    GREEN, '¡Respuesta Correcta!', RESET,
-                    'Se hicieron planes para una gran celebración que marcara adecuadamente la apertura oficial del Canal de Panamá el 15 de agosto de 1914.'
-                )
+                print(GREEN, '¡Respuesta Correcta!\n', RESET)
+                print(GREEN,'Se hicieron planes para una gran celebración que marcara adecuadamente la apertura oficial del Canal de Panamá el 15 de agosto de 1914.',RESET)
                 puntos += 20
                 correctas += 1
             else:
-                print(
-                    RED, '¡Respuesta Incorrecta!', RESET,
-                    'Se hicieron planes para una gran celebración que marcara adecuadamente la apertura oficial del Canal de Panamá el 15 de agosto de 1914.'
-                )
+                print(RED, '¡Respuesta Incorrecta!\n', RESET)
+                print(GREEN,'Se hicieron planes para una gran celebración que marcara adecuadamente la apertura oficial del Canal de Panamá el 15 de agosto de 1914.',RESET)
                 puntos -= 10
                 incorrectas += 1
             time.sleep(2)
 
-            opcionIntentos = resultado(nombre, puntos, correctas, incorrectas,
-                                       intentos, opcionIntentos)
+            opcionIntentos = resultado(nombre, puntos, correctas, incorrectas,intentos, opcionIntentos)
 
 #====================SALIR============================
     elif opcionTrivia == 3:
